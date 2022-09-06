@@ -1,0 +1,80 @@
+@mixin title {
+    height: 32px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+}
+
+@mixin title-768 {
+    height: 27px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+}
+
+@mixin image1 {
+    width: 300px;
+    height: 400px;
+}
+
+@mixin image1-768 {
+    width: 236px;
+    height: 400px;
+}
+
+@mixin image1-320 {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+@mixin image2 {
+    width: 120px;
+    height: 120px;
+}
+
+@mixin name {
+    width: 221px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    margin-top: 17px;
+    text-align: center;
+}
+
+@mixin description {
+    width: 221px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    margin-top: 12px;
+    text-align: center;
+}
+
+@mixin button-text {
+    height: 17px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+}
+
+@mixin caption {
+    height: 24px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    color: #666666;
+    margin-top: 43px;
+}
